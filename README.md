@@ -5,10 +5,10 @@ This is a simple Python script that fetches the current trends in Twitter in any
 This is supposed to serve as a prototype that can be built upon to turn into something more established such as a CLI using [click](https://click.palletsprojects.com/en/8.1.x/). 
 
 ## Requirements
-This only has one direct dependency that is [prettytable](https://pypi.org/project/prettytable/) which is used to cleanly output the trends in a table.
+This only has two direct dependencies: [requests](https://requests.readthedocs.io/en/latest/) which is used to communicate with the twitter API and [prettytable](https://pypi.org/project/prettytable/) which is used to cleanly output the trends in a table.
 
 ```bash
-pip install prettytable
+pip install requests prettytable
 
 ```
 **_OR_**
